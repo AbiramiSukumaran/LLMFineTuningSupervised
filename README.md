@@ -11,9 +11,9 @@ Model fine-tuning is a powerful technique used to improve the performance of pre
 
 Tuning a foundation model can improve its performance. Foundation models are trained for general purposes and sometimes don't perform tasks as well as you'd like them to. This might be because the tasks you want the model to perform are specialized tasks that are difficult to teach a model by using only prompt design. In these cases, you can use model tuning to improve the performance of a model for specific tasks. Model tuning can also help it adhere to specific output requirements when instructions aren't sufficient. This page provides an overview of model tuning, describes the tuning options available on Vertex AI, and helps you determine when each tuning option should be used. More here.
 
-# Use Case
+# Use Case & Dataset
 Using Generative AI we will generate a suitable TITLE for a news BODY from BBC FULLTEXT DATA (BigQuery Public Dataset bigquery-public-data.bbc_news.fulltext).
-We will fine tune text-bison@002 to a new fine-tuned model called "bbc-news-summary-tuned" and compare the result the response from the base model.
+We will fine tune text-bison@002 to a new fine-tuned model called "bbc-news-summary-tuned" and compare the result the response from the base model. The [JSONL]([url](https://github.com/AbiramiSukumaran/LLMFineTuningSupervised/blob/main/TRAIN.jsonl)) is made available for the implementation, feel free to upload it to your Cloud Storage Bucket to execute the fine tuning steps.
 
 # Steps
 Data Prep,
