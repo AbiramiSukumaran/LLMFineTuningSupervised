@@ -16,10 +16,16 @@ Using Generative AI we will generate a suitable TITLE for a news BODY from BBC F
 We will fine tune text-bison@002 to a new fine-tuned model called "bbc-news-summary-tuned" and compare the result the response from the base model.
 
 # Steps
-Data Prep
-Exploratory analysis with Vertex AI Studio / SDKs
-Training (Fine tuning of a base model)
-Evaluate
-Deploy
-Test & Serve
+Data Prep,
+
+Exploratory analysis with Vertex AI Studio / SDKs,
+
+Training (Fine tuning of a base model),
+
+Evaluate,
+
+Deploy,
+
+Test & Serve,
+
 Monitor
