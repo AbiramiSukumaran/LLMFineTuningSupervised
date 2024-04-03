@@ -18,14 +18,14 @@ We will fine tune text-bison@002 to a new fine-tuned model called "bbc-news-summ
 # Steps
 Data Prep,
 
-Exploratory analysis with Vertex AI Studio / SDKs,
+Exploratory analysis with Vertex AI Studio / SDKs
 
-Training (Fine tuning of a base model),
+Training (Fine tuning of a base model)
 
-Evaluate,
+Evaluate
 
-Deploy,
+Deploy
 
-Test & Serve,
+Test & Serve
 
 Monitor
